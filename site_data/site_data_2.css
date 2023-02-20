@@ -1,0 +1,164 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(fonts/Roboto-Regular.ttf);
+  }
+  
+@font-face {
+	font-family: Roboto-Bold;
+	src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+   font-family: Roboto-MediumItalic;
+   src: url(fonts/Roboto-MediumItalic.ttf);
+   }
+   
+@font-face {
+   font-family: Roboto-Thin;
+   src: url(fonts/Roboto-Thin.ttf);
+   }
+
+@font-face {
+   font-family: Roboto-Condensed;
+   src: url(fonts/Roboto-Condensed.ttf);
+   }
+
+span {
+  background-color: #FFFFFF;
+}
+
+.scroll-left {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+ background: white;
+ 
+ border: 1px solid black;
+}
+.scroll-left p {
+ position: relative;
+ top: 0%;
+ margin: 0;
+ line-height: 50px;
+ font-family: verdana;
+ font-size: 150%;
+ text-align: center;
+ /* Starting position */
+ transform:translateX(150%);
+ /* Apply animation to this element */
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@keyframes scroll-left {
+ 0%   {
+ transform: translateX(100%); 		
+ }
+ 100% {
+ transform: translateX(-100%); 
+ }
+}
+
+a:link {
+  text-decoration: none;
+  color: blue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.context-menu {cursor: context-menu;}
+
+.columnt1 {
+    position: relative;
+    width: 66%;
+    height: 26%;
+    left: 18%;
+    text-align: center;
+    display: block;
+  border: solid 1px;
+  border-radius: 1px 1px 1px 1px;
+}
+
+.copyright {
+          display: block;
+          margin-top: 10px;
+          text-align: center;
+          position: relative;
+          bottom: -40px;
+          font-size: 70%;
+          font-family: Roboto-Bold;
+}
+
+.overlay_site {
+         text-decoration: none;
+         color: white;
+         width: 64px;
+         height: 64px;
+         position: fixed;
+         bottom: 10px;
+         right: 140px;
+         border: 1px solid black;
+}
+
+.title {
+         text-align: center;
+         font-size: 200%;
+         font-family: Roboto-Bold;
+         -webkit-text-stroke-width: 0.4px;
+         -webkit-text-stroke-color: white;
+}
+
+.hint {
+         text-align: center;
+         font-size: 60%;
+         font-family: Roboto-MediumItalic;
+         color: white;
+}
+
+.btms {
+         position: fixed;
+         right: 30px;
+         bottom: 10px;
+         font-size: 110%;
+         font-family: Roboto-Bold;
+         color: black;
+         -webkit-text-stroke-width: 0.8px;
+         -webkit-text-stroke-color: white;
+}
+
+.bft {
+         text-align: center;
+         font-size: 110%;
+         font-family: Roboto-MediumItalic;
+         -webkit-text-stroke-width: 0.5px;
+         -webkit-text-stroke-color: white;
+}
+
+.comfr_logo {
+         cursor: context-menu;
+         display: block;
+         margin-left: auto; 
+         margin-right: auto;
+         margin-bottom: -1px;
+         margin-top: 30px;
+         width: 404px;
+         height: 125px;
+         position: relative;
+         left: 0px;
+}
+
+.imgsze {
+         height: 64px;
+         width: 64px;
+}
+
